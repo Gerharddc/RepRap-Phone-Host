@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{c3835e47-62cb-4cb8-8f2f-e7f3caf37b58}" Title="RepRap Phone Host" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Gerhard de Clercq" Description="A smartphone based host for RepRap 3D printers with Repetier firmware." Publisher="Bananna3D" PublisherID="{b35706c9-4e0c-4d26-a743-81de0381576f}">
+    <IconPath IsRelative="true" IsResource="false">Assets\drop352.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_PROXIMITY" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="RepRap_Phone_HostToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\drosmall.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\dropmed.png</BackgroundImageURI>
+          <Title>RepRap Phone Host</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\droplarge.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false"></LargeBackBackgroundImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <FileTypeAssociation Name="3D Printable model" TaskID="_default" NavUriFragment="fileToken=%s">
+        <Logos>
+          <Logo Size="small" IsRelative="true">Assets/drop33.png</Logo>
+          <Logo Size="medium" IsRelative="true">Assets/drop69.png</Logo>
+          <Logo Size="large" IsRelative="true">Assets/drop176.png</Logo>
+        </Logos>
+        <SupportedFileTypes>
+          <FileType ContentType="application/sdk">.stl</FileType>
+        </SupportedFileTypes>
+      </FileTypeAssociation>
+      <FileTypeAssociation Name="3D Printing toolpath" TaskID="_default" NavUriFragment="fileToken=%s">
+        <Logos>
+          <Logo Size="small" IsRelative="true">Assets/drop33.png</Logo>
+          <Logo Size="medium" IsRelative="true">Assets/drop69.png</Logo>
+          <Logo Size="large" IsRelative="true">Assets/drop176.png</Logo>
+        </Logos>
+        <SupportedFileTypes>
+          <FileType ContentType="application/sdk">.gcode</FileType>
+        </SupportedFileTypes>
+      </FileTypeAssociation>
+    </Extensions>
+    <ActivatableClasses>
+      <InProcessServer>
+        <Path>SharpDX.WP8.dll</Path>
+        <ActivatableClass ActivatableClassId="SharpDX.WP8.Interop" ThreadingModel="both" />
+      </InProcessServer>
+    </ActivatableClasses>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
+<!-- WPSDK Version 8.0.9900 -->

@@ -1,0 +1,177 @@
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.csprojResolveAssemblyReference.cache
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\App.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\MainPage.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.g.resources
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap_Phone_Host.Resources.AppResources.resources
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.csproj.GenerateResource.Cache
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\ApplicationIcon.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\RepRap Phone Host.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\RepRap Phone Host.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Microsoft.Live.Controls.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Microsoft.Live.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\MonoGame.Framework.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\PolyChopper.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ClipperWP.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.WP8.winmd
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\MonoGame.Framework.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\PolyChopper.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ClipperWP.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\SharpDX.WP8.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\cs\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\da\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\de\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\el\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\en\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\en-gb\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\es\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\fi\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\fr\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\hu\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\id\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\it\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ja\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ko\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ms\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\nb-no\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\nl\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\pl\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\pt-br\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\pt-pt\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ru\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\sv\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\zh-cn\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\zh-tw\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\AppManifest.xaml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\Bin\x86\Debug\RepRap_Phone_Host_Debug_x86.xap
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host\RepRap Phone Host\obj\x86\Debug\XapCacheFile.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\ApplicationIcon.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\AppBar\delete.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\AppBar\share.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\drop176.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\drop33.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\drop69.png
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Assets\test.stl
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\RepRap Phone Host.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\RepRap Phone Host.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\AppManifest.xaml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Properties\WMAppManifest.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\RepRap_Phone_Host_Debug_x86.xap
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Microsoft.Live.Controls.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Microsoft.Live.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\PolyChopper.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.WP8.winmd
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\PolyChopper.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\MonoGame.Framework.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\SharpDX.WP8.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\cs\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\da\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\de\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\el\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\en\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\en-gb\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\es\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\fi\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\fr\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\hu\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\id\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\it\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ja\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ko\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ms\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\nb-no\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\nl\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\pl\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\pt-br\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\pt-pt\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ru\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\sv\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\zh-cn\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\zh-tw\Microsoft.Live.Controls.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\Bin\x86\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.csprojResolveAssemblyReference.cache
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\App.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\AboutPage.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\HelpPage.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\MainPage.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\SkyDriveSharingPage.g.cs
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.g.resources
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap_Phone_Host.Resources.AppResources.resources
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.csproj.GenerateResource.Cache
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.dll
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\RepRap Phone Host.pdb
+C:\Users\Gerhard\SkyDrive\PolyVoxel\RepRap Phone Host - Copy\RepRap Phone Host\obj\x86\Debug\XapCacheFile.xml

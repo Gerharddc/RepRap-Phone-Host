@@ -1,0 +1,27 @@
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\RepRap Phone Host.dll
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\RepRap Phone Host.pdb
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\AppManifest.xaml
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\Bin\Debug\RepRap_Phone_Host_Debug_AnyCPU.xap
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\App.g.cs
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\MainPage.g.cs
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.g.resources
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap_Phone_Host.Resources.AppResources.resources
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.csproj.GenerateResource.Cache
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.dll
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.pdb
+c:\users\gerhard\documents\visual studio 2012\Projects\RepRap Phone Host\RepRap Phone Host\obj\Debug\XapCacheFile.xml
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.csprojResolveAssemblyReference.cache
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\App.g.cs
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\AboutPage.g.cs
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\HelpPage.g.cs
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\MainPage.g.cs
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\SkyDriveSharingPage.g.cs
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.g.resources
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap_Phone_Host.Resources.AppResources.resources
+C:\Users\Gerhard\SkyDrive\Bananna3D\Host Software\RepRap Phone Host\RepRap Phone Host\obj\Debug\RepRap Phone Host.csproj.GenerateResource.Cache

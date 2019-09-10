@@ -1,0 +1,328 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="RepRap_Phone_Host.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="REPRAP PHONE HOST" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Help" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <StackPanel>
+                    <RichTextBox x:Name="help_TextBlock" Width="451" TextWrapping="Wrap">
+                        <Paragraph>
+                            Here follows descriptions for each of the available settings. Please note that speeds, dimensions etc. are not considered to be in any specific units and will therefore not be converted as such. The values will be used directly and will therefore be in whatever format your printer is configured to operate in. Just note that speeds are in units per second and will therefore be multiplied by 60 before being written in GCode format.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="bedWidth:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The width of the printbed.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="bedLength:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The length of the printbed.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="bedHeigth:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The heigth of the printbed.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="printingTemperature:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The printing temperature. Set to 0 for a dry run.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="bottomLayerCount:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of bottom layers to create.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="topLayerCount:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of top layers to create.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="flowPercentage:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The percentage of filament to extrude.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="initialLayerSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print the first layer.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="normalLayerSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print normal layers.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="normalInfillSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print normal infill segments.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="bridgeingSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print bridged segments.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="moveSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to perform unextruded moves.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="normalInfillDensity:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The density of normal infill segments.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="nozzleWidth:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The width of the printheads tip.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="filamentWidth:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The width of the filament.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="layerHeight:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The height that layers should be printed at.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="materialType:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The type of printing material used (PLA or ABS).
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="costPerKg:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The cost of one Kg of filament.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="costPerMinute:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The cost of one minute of printing.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="skirtSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print skirt segments.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="skirtCount:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of skirt lines to create.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="skirtDistance:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The distance of the skirt from the model.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="shouldSkirt:"/>
+                            </Bold>
+                            <LineBreak/>
+                            Determines if a skirt should be created.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="shellThickness:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of outlines to create per layer.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="shouldSupportMaterial:"/>
+                            </Bold>
+                            <LineBreak/>
+                            Determines if support material should be created. (Experimental)
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="supportMaterialDensity:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The density that support infill should be.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="supportSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print support segments.                         
+                        </Paragraph>
+                    </RichTextBox>
+                    <RichTextBox>
+                        <Paragraph>
+                            <Bold>
+                                <Run Text="retractionSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to retract filament between islands.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="retractionDistance:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The distance to retract filament between islands.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="shouldRaft:"/>
+                            </Bold>
+                            <LineBreak/>
+                            Determines if a raft should be created.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="raftDensity:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The density that the raft infill should have.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="raftDistance:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The distance that the raft should be from the model.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="raftCount:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of raft layers to create.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="raftSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The speed at which to print the raft layers.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="infillCombinationCount:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The amount of layers whose infill should be combined into one. (Very experimental)
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="minimumLayerTime:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The least amount of time should be spent on a layer.
+                            <LineBreak/>
+                            <LineBreak/>
+                            <Bold>
+                                <Run Text="minimumLayerSpeed:"/>
+                            </Bold>
+                            <LineBreak/>
+                            The lowest speed that a layer can be printed at.
+                            <LineBreak/>
+                            <LineBreak/>
+                        </Paragraph>
+                    </RichTextBox>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,16 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="RepRap Phone Host" EntryPointType="RepRap_Phone_Host.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="RepRap Phone Host" Source="RepRap Phone Host.dll" />
+    <AssemblyPart x:Name="Microsoft.Live.Controls" Source="Microsoft.Live.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Live" Source="Microsoft.Live.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="MonoGame.Framework" Source="MonoGame.Framework.dll" />
+    <AssemblyPart x:Name="PolyChopper" Source="PolyChopper.dll" />
+    <AssemblyPart x:Name="SharpDX" Source="SharpDX.dll" />
+    <AssemblyPart x:Name="SharpDX.Direct3D11" Source="SharpDX.Direct3D11.dll" />
+    <AssemblyPart x:Name="SharpDX.XAudio2" Source="SharpDX.XAudio2.dll" />
+    <AssemblyPart x:Name="SharpDX.DXGI" Source="SharpDX.DXGI.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="SharpDX.WP8" Source="SharpDX.WP8.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,431 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="RepRap_Phone_Host.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d"
+    d:DesignHeight="1600"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <MediaElement x:Name="XnaMediaElement" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <phone:Pivot Title="REPRAP PHONE HOST" x:Name="MainPivot" UnloadingPivotItem="unloadingPivotItem" LoadingPivotItem="loadingPivotItem">
+            <phone:PivotItem x:Name="StlPivot" Header="Stl">
+                <ScrollViewer x:Name="stlpivot_Scroller">
+                    <StackPanel>
+                        <toolkit:ListPicker x:Name="stl_Filelist" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Stl File" FullModeHeader="Stl File" CacheMode="BitmapCache"/>
+                        <Grid>
+                            <DrawingSurface x:Name="StlSurface" Height="475" />
+
+                            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Button x:Name="zoomButtonStl" Content="+" ManipulationStarted="zoomButtonStl_Press"/>
+                                <Button x:Name="unZoomButtonStl" Content="-" Width="70" Height="70" ManipulationStarted="unZoomButtonStl_ManipulationStarted"/>
+                            </StackPanel>
+
+                            <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button x:Name="moveUpButtonStl" ManipulationStarted="moveUpButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                </Button>
+                                <Button x:Name="moveLeftButtonStl" ManipulationStarted="moveLeftButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="-90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="moveRightButtonStl" ManipulationStarted="moveRightButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="moveDownButtonStl" ManipulationStarted="moveDownButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="180"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <TextBlock Text="Move" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+
+                            <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button x:Name="rotateUpButtonStl" ManipulationStarted="rotateUpButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                </Button>
+                                <Button x:Name="rotateLeftButtonStl" ManipulationStarted="rotateLeftButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="-90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="rotateRightButtonStl" ManipulationStarted="rotateRightButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="rotateDownButtonStl" ManipulationStarted="rotateDownButtonStl_ManipulationStarted" Width="70" Height="70" Grid.Row="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="180"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <TextBlock Text="Rotate" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                        
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,30,0,0">
+                            <TextBlock x:Name="xRotation_TextBlock" VerticalAlignment="Center" Text="X Rotation: "/>
+                            <TextBox x:Name="xRotation_TextBox" Text="0" LostFocus="rotation_TextBox_LostFocus" InputScope="Number"/>
+                        </StackPanel>                        
+                        <Slider x:Name="xRotation_Slider" ManipulationDelta="rotation_Slider_ManipulationDelta" ManipulationCompleted="rotation_Slider_ManipulationCompleted" Maximum="360"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock x:Name="yRotation_TextBlock" VerticalAlignment="Center" Text="Y Rotation: "/>
+                            <TextBox x:Name="yRotation_TextBox" Text="0" LostFocus="rotation_TextBox_LostFocus" InputScope="Number"/>
+                        </StackPanel>
+                        <Slider x:Name="yRotation_Slider" ManipulationDelta="rotation_Slider_ManipulationDelta" ManipulationCompleted="rotation_Slider_ManipulationCompleted" Maximum="360"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,30,0,0">
+                            <TextBlock x:Name="zRotation_TextBlock" VerticalAlignment="Center" Text="Z Rotation: "/>
+                            <TextBox x:Name="zRotation_TextBox" Text="0" LostFocus="rotation_TextBox_LostFocus" InputScope="Number"/>
+                        </StackPanel>
+                        <Slider x:Name="zRotation_Slider" ManipulationDelta="rotation_Slider_ManipulationDelta" ManipulationCompleted="rotation_Slider_ManipulationCompleted" Maximum="360"/>
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Text="Scale" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="0"/>
+                            <TextBox x:Name="scale_Textbox" Text="1.0" InputScope="Number" LostFocus="scale_Textbox_LostFocus" Grid.Column="0" Grid.Row="1" TextAlignment="Center"/>
+                            <TextBlock Text="X Offset" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="0"/>
+                            <TextBox x:Name="xOffset_Textbox" Text="0.0" InputScope="Number" LostFocus="xOffset_Textbox_LostFocus" Grid.Column="1" Grid.Row="1" TextAlignment="Center"/>
+                            <TextBlock Text="Y Offset" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0"/>
+                            <TextBox x:Name="yOffset_Textbox" Text="0.0" InputScope="Number" LostFocus="yOffset_Textbox_LostFocus" Grid.Column="2" Grid.Row="1" TextAlignment="Center"/>
+                        </Grid>
+                        <Button x:Name="saveButtonStl" Content="Save and send to slicer" Click="saveButtonStl_Click"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="SlicerPivot" Header="Slicer">
+                <StackPanel>
+                    <toolkit:ListPicker x:Name="slicer_Filelist" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Stl File" FullModeHeader="Stl File" CacheMode="BitmapCache"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Button x:Name="Slice_Button" Content="Slice" Background="#FF0D5B1E" Click="Slice_Button_Click_1"/>
+                        <Button x:Name="CancelButton" Content="Cancel" Background="#FFC70E0E" Click="CancelButton_Click_1" Grid.Column="1"/>
+                    </Grid>
+                    <Border BorderBrush="{StaticResource PhoneForegroundBrush}" BorderThickness="2">
+                        <StackPanel x:Name="outputStackPanel" Margin="5" Height="400"/>
+                    </Border>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="GCodePivot" Header="Gcode">
+                <ScrollViewer>
+                    <StackPanel>
+                        <toolkit:ListPicker x:Name="gcode_Filelist" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Gcode File" FullModeHeader="Gcode File" CacheMode="BitmapCache"/>
+                        <Grid>
+                            <DrawingSurface x:Name="GCodeSurface" Height="475" />
+
+                            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Button x:Name="zoomButtonGCode" Content="+" ManipulationStarted="zoomButtonGCode_ManipulationStarted_1"/>
+                                <Button x:Name="unZoomButtonGCode" Content="-" Width="70" Height="70" ManipulationStarted="unZoomButtonGCode_ManipulationStarted_1"/>
+                            </StackPanel>
+
+                            <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button x:Name="moveUpButtonGCode" ManipulationStarted="moveUpButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                </Button>
+                                <Button x:Name="moveLeftButtonGCode" ManipulationStarted="moveLeftButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="-90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="moveRightButtonGCode" ManipulationStarted="moveRightButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="moveDownButtonGCode" ManipulationStarted="moveDownButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="180"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <TextBlock Text="Move" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+
+                            <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button x:Name="rotateUpButtonGCode" ManipulationStarted="rotateUpButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                </Button>
+                                <Button x:Name="rotateLeftButtonGCode" ManipulationStarted="rotateLeftButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="-90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="rotateRightButtonGCode" ManipulationStarted="rotateRightButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="90"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <Button x:Name="rotateDownButtonGCode" ManipulationStarted="rotateDownButtonGCode_ManipulationStarted_1" Width="70" Height="70" Grid.Row="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock Text="^"/>
+                                    <Button.RenderTransform>
+                                        <CompositeTransform Rotation="180"/>
+                                    </Button.RenderTransform>
+                                </Button>
+                                <TextBlock Text="Rotate" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                        <TextBlock x:Name="bottomLayer_TextBlock" Text="Bottom layer: 0" HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                        <Slider x:Name="min_Slider"/>
+                        <TextBlock x:Name="topLayer_TextBlock" Text="Top layer: 0" HorizontalAlignment="Center"/>
+                        <Slider x:Name="max_Slider"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="GCode_TextPivot" Header="Gcode Text" Margin="12,28,10,0">
+                <StackPanel>
+                    <toolkit:ListPicker x:Name="gcodetext_Filelist" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Gcode File" FullModeHeader="Gcode File" CacheMode="BitmapCache"/>
+                    <ScrollViewer Height="470" x:Name="gcodeScroller" BorderBrush="{StaticResource PhoneForegroundBrush}" BorderThickness="2">
+                        <StackPanel x:Name="gcodePanel" Margin="5"/>
+                    </ScrollViewer>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="ControlPivot" Header="Control">
+                <ScrollViewer>
+                    <StackPanel>
+                        <toolkit:ListPicker x:Name="gcodeprint_Filelist" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Gcode file" FullModeHeader="Gcode file" CacheMode="BitmapCache"/>
+                        <TextBlock HorizontalAlignment="Center" x:Name="eta_TextBlock" Text="ETA: 0h 0m 0s"/>
+                        <Button x:Name="print_Button" Content="Print" Click="print_Button_Click"/>
+                        <TextBlock HorizontalAlignment="Center" x:Name="printing_TextBlock" Text="0% Complete"/>
+                        <ProgressBar x:Name="printing_ProgressBar" Height="50"/>                    
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <RadioButton HorizontalAlignment="Center" x:Name="x_Radiobutton" Content="X" IsChecked="True" GroupName="moveGroup" Checked="x_Radiobutton_Checked"/>
+                            <RadioButton HorizontalAlignment="Center" x:Name="y_Radiobutton" Content="Y" GroupName="moveGroup" Checked="y_Radiobutton_Checked" Grid.Column="1"/>
+                            <RadioButton HorizontalAlignment="Center" x:Name="z_Radiobutton" Content="Z" GroupName="moveGroup" Checked="z_Radiobutton_Checked_1" Grid.Column="2"/>
+                            <RadioButton HorizontalAlignment="Center" x:Name="e_Radiobutton" Content="E" GroupName="moveGroup" Checked="e_Radiobutton_Checked_1" Grid.Column="3"/>
+                        </Grid>
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock HorizontalAlignment="Center" x:Name="distance_Textblock" Text="Move distance" VerticalAlignment="Top"/>
+                            <TextBox TextAlignment="Center" Grid.Row="1" x:Name="distance_Textbox" Text="10" InputScope="Number"/>
+                            <TextBlock HorizontalAlignment="Center" Grid.Column="1" x:Name="speed_Textblock" Text="Move speed"/>
+                            <TextBox TextAlignment="Center" Grid.Column="1" Grid.Row="1" x:Name="speed_Textbox" Text="10" InputScope="Number"/>
+                            <Button Grid.Row="2" x:Name="up_Button" Content="Up" VerticalAlignment="Top" Click="up_Button_Click"/>
+                            <Button Grid.Row="2" Grid.Column="1" x:Name="down_Button" Content="Down" Click="down_Button_Click"/>
+                        </Grid>
+                        
+                        <TextBlock HorizontalAlignment="Center" x:Name="home_Textblock" Text="Home"/>
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Button x:Name="xhome_Button" Content="X" VerticalAlignment="Top" Click="xhome_Button_Click"/>
+                            <Button Grid.Column="1" x:Name="yhome_Button" Content="Y" VerticalAlignment="Top" Click="yhome_Button_Click"/>
+                            <Button Grid.Column="2" x:Name="zhome_Button" Content="Z" VerticalAlignment="Top" Click="zhome_Button_Click"/>
+                            <Button Grid.Column="3" x:Name="allhome_Button" Content="All" Click="allhome_Button_Click"/>
+                        </Grid>
+                        
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock x:Name="temperatureTitle_Textblock" Text="Temperature: "/>
+                            <TextBlock x:Name="temperature_Textblock" Text="0C"/>
+                        </StackPanel>
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <CheckBox Grid.Column="1" x:Name="heat_Checkbox" Content="Heat" HorizontalAlignment="Left" Click="heat_Checkbox_Click"/>
+                            <TextBox TextAlignment="Center" x:Name="temperature_Textbox" Text="200" InputScope="Number"/>                            
+                        </Grid>
+                        
+                        
+                        <TextBlock HorizontalAlignment="Center" x:Name="gcode_Textblock" Text="Enter gcode and press enter"/>
+                        <TextBox x:Name="gcode_Textbox" KeyUp="gcode_Textbox_KeyUp"/>
+                        <Button x:Name="emergencystop_Button" Content="Emergency Stop" Background="Red" Click="emergencystop_Button_Click"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="ConnectionPivot" Header="Connection">
+                <StackPanel>
+                    <toolkit:ListPicker x:Name="device_Listpicker" SelectionMode="Single" ItemTemplate="{StaticResource ListPickerItemTemplate}" FullModeItemTemplate="{StaticResource ListPickerFullModeItemTemplate}" Header="Bluetooth device" FullModeHeader="Bluetooth device" CacheMode="BitmapCache"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Button Grid.Column="1" x:Name="connect_Button" Content="Connect" Click="connect_Button_Click"/>
+                        <CheckBox x:Name="repetier_CheckBox" Content="Repetier Protocol"/>
+                    </Grid>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Communication log" Margin="0,0,0,10"/>
+                    <Border BorderBrush="{StaticResource PhoneForegroundBrush}" BorderThickness="2">
+                        <StackPanel x:Name="comlog_Stackpanel" Margin="2" Height="360"/>
+                    </Border>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="SettingsPivot" Header="Settings">
+                <ScrollViewer>
+                    <StackPanel x:Name="SettingStackPanel">
+                    </StackPanel>
+                </ScrollViewer>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="FilesPivot" Header="Files">
+                <ScrollViewer x:Name="FilesScroller" HorizontalAlignment="Left" VerticalAlignment="Top" Width="456">
+                    <StackPanel>
+                        <TextBlock TextWrapping="Wrap" Text="Stl Files" FontSize="40"/>
+                        <Border BorderBrush="{StaticResource PhoneForegroundBrush}" BorderThickness="2">
+                            <StackPanel x:Name="stlFiles_StackPanel" Margin="2">
+                                <Rectangle/>
+                            </StackPanel>
+                        </Border>
+                        <TextBlock TextWrapping="Wrap" Text="Gcode Files" FontSize="40"/>
+                        <Border BorderBrush="{StaticResource PhoneForegroundBrush}" BorderThickness="2">
+                            <StackPanel x:Name="gcodeFiles_StackPanel" Margin="2">
+                                <Rectangle/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </ScrollViewer>
+            </phone:PivotItem>
+        </phone:Pivot>
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" />-->
+    </Grid>
+
+</phone:PhoneApplicationPage>
